@@ -4,10 +4,10 @@ import sys
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print('Missing script name')
+        print 'Missing script name'
         sys.exit(1)
     elif len(sys.argv) < 3:
-        print('Missing job ENVs path')
+        print 'Missing job ENVs path'
         sys.exit(1)
     else:
         script_path = sys.argv[1]
